@@ -19,6 +19,7 @@ class App extends React.Component {
   }
 
   render() {
+    // throw new Error('Boom!') // test error boundary
     const { count } = this.state
 
     return (
