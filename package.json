@@ -12,9 +12,12 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
     "babel-jest": "^26.6.3",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.0.1",
+    "eslint": "^7.18.0",
+    "eslint-plugin-react": "^7.22.0",
     "html-webpack-plugin": "^4.5.1",
     "jest": "^26.6.3",
     "prettier": "^2.2.1",
@@ -31,7 +34,8 @@
     "dev": "webpack serve --open --watch --config webpack.config.dev.js",
     "dev:hot": "yarn dev --hot",
     "test": "jest",
-    "format": "pretty-quick"
+    "format": "pretty-quick",
+    "lint": "eslint ./"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
